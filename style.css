@@ -107,3 +107,23 @@ button{
 .info p{
     width: 120px;
 }
+
+/* quotation */
+.quotation{
+    background-color: #E5E7EB;
+    padding: 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 800;
+}
