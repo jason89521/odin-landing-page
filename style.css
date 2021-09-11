@@ -9,11 +9,27 @@ a{
     text-decoration: none;
 }
 
+p{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    width: 150px;
+    padding: 8px;
+}
+
 .header{
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 8px 128px;
+    padding: 16px 128px;
     background-color: #1F2937;
 }
 
@@ -26,4 +42,29 @@ a{
     flex:1;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 128px;
+    background-color: #1F2937;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.article p:first-child{
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+.article p:nth-child(2){
+    font-size: 18px;
+    color: #E5E7EB;
 }
